@@ -4,6 +4,7 @@ ENV CLASSPATH /opt/lib
 EXPOSE 8080
 EXPOSE 9090
 EXPOSE 9091
+EXPOSE 9092
 
 
 # copy pom.xml and wildcards to avoid this command failing if there's no target/lib directory
